@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.fheading {
+    margin: 21px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+}
+.container {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    /* border: 1px solid gray; */
+    margin-top: 100px;
+    padding: 30px;
+}
+label {
+    display: block;
+    margin: 3px 0px;
+}
+.form-control {
+    padding: 10px;
+    width: 145%;
+    border-radius: 4px;
+    border: 1px solid gray;
+    overflow-x: hidden;
+}
+input[type = submit], .next, .previous {
+    margin: 10px 0px;
+    padding: 10px 28px;
+    font-size: 16px;
+    background-color: #520bec;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+h3 {
+    margin: 10px 0px;
+    font-size: 25px;
+}
+.wrapper p{
+    padding: 13px;
+    background: #520bec;
+    color: white;
+    font-size: 24px;
+}
+.wrapper p span a{
+    color: white;
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.box1 {
+    width: 50%;
+    margin: 48px auto;
+    /* border: 1px solid gray; */
+}
+.form-category {
+    width: 89%;
+    padding: 11px;
+    margin: 12px 0px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+table tr td {
+    padding: 10px;
+    border: 1px solid gray;
+    width: 1%;
+}
+table, th {
+    /* border: 1px solid gray; */
+    float: left;
+}
+table {
+    margin-top: 10px;
+}
+.backButton {
+    text-decoration: none;
+    background: #520bec;
+    color: white;
+    padding: 7px 20px;
+    /* margin: 34px; */
+    border-radius: 5px;
+}
+.box1 .testbox {
+    background: #520bec;
+    width: 100%;
+    color: white;
+    font-size: 29px;
+    padding: 11px;
+}
+.testbox p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.box1 .testbox a {
+    color: white;
+    font-size: 18px;
+    /* border: 1px dotted white; */
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 29px;
+}

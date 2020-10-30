@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.sidebar {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    background-color: #520bec;
+    padding: 29px;
+}
+.menu {
+    margin: 12px 0px;
+}
+.sidebar :first-child {
+    margin-top: -20px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+p {
+    background: #520bec;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.container {
+    position: absolute;
+    top: 55px;
+    left: 321px;
+    border: 2px solid gray;
+    width: 74%;
+    border-radius: 5px;
+    padding: 20px 5px;
+}
+.container .qa table {
+    text-align: left;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+table tr td {
+    padding: 10px;
+}
+.form-group {
+    padding: 10px;
+}
+label {
+    display: block;
+    padding: 2px;
+}
+.form-control {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form-group .category
+{
+    width: 82%;
+}
+input[type=submit] {
+    padding: 10px 10px;
+    background: #520bec;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #520bec;
+    border-radius: 4px;
+}
